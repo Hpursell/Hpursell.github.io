@@ -11,7 +11,7 @@ jQuery.getJSON(demographics, function (data) {
 var states = function (feature) {
   var statePopulation = feature.properties.POPULATION
   var stateColor = 'olive'
-  if (statePopulation > 1000000) { stateColor = 'green' }
+  if (statePopulation > 4000000) { stateColor = 'green' }
   return {
     color: stateColor,
     weight: 2,
